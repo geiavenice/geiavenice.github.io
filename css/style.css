@@ -1,4 +1,12 @@
 body {
-	background-color: blue;
-	color: yellow;
+	background-color: #D4CCD4;
+	color: #290029;
+	font-family: "Verdana", sans-serif;
 }
+
+#slogan {
+	font-style: italic;
+}
+ #contact {
+ 	font-weight: bold;
+ }

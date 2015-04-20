@@ -1,11 +1,27 @@
 body {
-	background-color: #D4CCD4;
-	color: #290029;
+	background-color: #84F5BB;
+	color: #000000;
 	font-family: 'Raleway', sans-serif;
+	margin-left: 100px;
+	margin-right: 150px;
+
 }
+
+h1 {
+	text-align: center;
+}
+
+IMG.beakers {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 400px;
+	}
+
 
 #slogan {
 	font-style: italic;
+	text-align: center;
 }
  #contact {
  	font-weight: bold;

@@ -28,14 +28,15 @@ h1 {
 	color: #FFFFFF;
 	padding: 0.2em;
 	width: 70px;
-	margin: .5em 1em; 
+	margin: 10px 20px; 
 	float: right;
 }
 
-IMG.beakers {
+img.beakers {
 		display: block;
-		margin: auto;
+		margin: 0 auto;
 		width: 400px;
+		clear: both;
 	}
 
 a {
@@ -53,17 +54,17 @@ a {
  }
 
 .wrapper {
-	width: 70%;
+	width: 1040px;
 	margin: 0 auto;
 }
  .summary {
 	background-color: #000000;
 	text-align: left;
 	color: #FFFFFF;
-	padding: 2em;
+	padding: 40px;
 	width: 400px;
 	height: 150px;
-	margin: 1em;
+	margin: 20px;
 	float: left;
 }
 

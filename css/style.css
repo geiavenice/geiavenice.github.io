@@ -1,28 +1,74 @@
 body {
-	background-color: #84F5BB;
+	background-color: #FFFFFF;
 	color: #000000;
-	font-family: 'Raleway', sans-serif;
-	margin-left: 100px;
-	margin-right: 150px;
-
+	font-family: 'Dosis', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
 h1 {
+	width: 700px;
+	padding: 1em;
+	border-radius: 40px;
+	border-color: gray;
+	border-style: dotted;
+	margin: 1em auto;
+}
+
+#nav {
+	width: 80%;
+	margin: auto;
+	}
+
+.nav2 {
+	display: block;
+	background-color: #000000;
 	text-align: center;
+	color: #FFFFFF;
+	padding: 0.2em;
+	width: 70px;
+	margin: .5em 1em; 
+	float: right;
 }
 
 IMG.beakers {
 		display: block;
-		margin-left: auto;
-		margin-right: auto;
+		margin: auto;
 		width: 400px;
 	}
 
+a {
+	color: #FFFFFF;
+	font-family: 'Dosis', sans-serif;
+}
 
 #slogan {
+	font-size: 20px;
 	font-style: italic;
 	text-align: center;
 }
  #contact {
  	font-weight: bold;
  }
+
+.wrapper {
+	width: 70%;
+	margin: 0 auto;
+}
+ .summary {
+	background-color: #000000;
+	text-align: left;
+	color: #FFFFFF;
+	padding: 2em;
+	width: 400px;
+	height: 150px;
+	margin: 1em;
+	float: left;
+}
+
+}
+
+#website{
+	color: #000000;
+}

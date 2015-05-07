@@ -7,67 +7,132 @@ body {
 	text-align: center;
 }
 
-h1 {
-	width: 700px;
-	padding: 1em;
-	border-radius: 40px;
-	border-color: gray;
-	border-style: dotted;
-	margin: 1em auto;
-}
-
-#nav {
-	width: 80%;
-	margin: auto;
-	}
-
 .nav2 {
-	display: block;
 	background-color: #000000;
 	text-align: center;
-	color: #FFFFFF;
-	padding: 0.2em;
-	width: 70px;
-	margin: 10px 20px; 
+	padding: 5pm;
+	width: 60px;
+	margin: 2px; 
 	float: right;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FFFFFF;
 }
-
-img.beakers {
-		display: block;
-		margin: 0 auto;
-		width: 400px;
-		clear: both;
-	}
 
 a {
 	color: #FFFFFF;
 	font-family: 'Dosis', sans-serif;
+	text-decoration: none;
+	display: block;
 }
 
-#slogan {
-	font-size: 20px;
-	font-style: italic;
+a:hover {
+	background-color: #7EF2B8;
+}
+
+img.logo {
+		display: block;
+		margin: 0 auto;
+		width: 100px;
+		height: 115px;
+		background-color: #000000;
+		clear: both;
+		padding-left: 10px;
+		float: left;
+	}
+
+h1 {
+	font-family: "Anders", sans-serif;
 	text-align: center;
+	color: #7EF2B8;
+	padding-top: 75px; 
+	font-size: 80px;
+	letter-spacing: -6px;
+	padding-bottom: 0px;
 }
- #contact {
- 	font-weight: bold;
- }
 
-.wrapper {
-	width: 1040px;
-	margin: 0 auto;
-}
- .summary {
+#lightbulb {
+	display: block;
+	width: 100%;
 	background-color: #000000;
-	text-align: left;
-	color: #FFFFFF;
-	padding: 40px;
-	width: 400px;
-	height: 150px;
-	margin: 20px;
-	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
+#lab {
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	display: block;
+}
+
+img.lappic {
+	float: left;
+	width: 20%;
+}
+
+img {
+	width: 130px;
+}
+
+.clearfix{
+	width: 920px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+ .summary {
+	display: block;
+	text-align: left;
+	color: #000000;
+	padding: 40px;
+	border: 3px solid gray;
+	width: 360px;
+	height: 160px;
+	float: left;
+	margin-right: auto;
+	margin-left: 10px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+  background-color: gray
+}
+
+#signup {
+	width: 816px;
+	display: block;
+	background-color: #7EF2B8;
+	color: gray;
+	border: 3px solid gray;
+	font-family: "Anders", sans-serif;
+	text-align: center;
+	text-transform: bold;
+	font-size: 24px;
+	margin: 10px;
+	padding: 40px;
+	margin: 15px auto 40px auto;
+}
+
+#signup2 {
+	font-size: 18px;
+	text-align: left;
+	font-family: 'Dosis', sans-serif;
+}
+
+footer {
+	width: 100%;
+	background-color: #B2B2CC;
+	font-size: 12px;
+	padding: 20px;
 }
 
 #website{

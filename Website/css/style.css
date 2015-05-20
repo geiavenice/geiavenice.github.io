@@ -1,0 +1,145 @@
+body {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: 'Dosis', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.nav2 {
+	background-color: #000000;
+	text-align: center;
+	padding: 5pm;
+	width: 60px;
+	margin: 2px; 
+	float: right;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FFFFFF;
+}
+
+#nav a {
+	color: #FFFFFF;
+	font-family: 'Dosis', sans-serif;
+	text-decoration: none;
+	display: block;
+}
+
+a:hover {
+	background-color: #7EF2B8;
+}
+
+img.logo {
+		display: block;
+		margin: 0 auto;
+		width: 100px;
+		background-color: #000000;
+		clear: both;
+		padding-left: 10px;
+		float: left;
+	}
+
+h1 {
+	font-family: "Anders", sans-serif;
+	text-align: center;
+	color: #7EF2B8;
+	padding-top: 75px; 
+	font-size: 70px;
+	letter-spacing: 5px;
+	padding-bottom: 0px;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+#lab {
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	display: block;
+}
+
+img.math {
+	float: left;
+	width: 100%;
+}
+
+img#beaker{
+	width: 80px;
+}
+
+img#weird{
+	width: 150px;
+}
+
+img#flask{
+	width: 80px;
+}
+
+img#telescope{
+	width: 150px;
+}
+
+.clearfix{
+	width: 920px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+ .summary {
+	display: block;
+	text-align: left;
+	color: #000000;
+	padding: 40px;
+	border: 3px solid gray;
+	width: 360px;
+	height: 160px;
+	float: left;
+	margin-right: auto;
+	margin-left: 10px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+  background-color: gray
+}
+
+#signup {
+	width: 816px;
+	display: block;
+	background-color: #7EF2B8;
+	color: gray;
+	border: 3px solid gray;
+	font-family: "Anders", sans-serif;
+	text-align: center;
+	text-transform: bold;
+	font-size: 24px;
+	margin: 10px;
+	padding: 40px;
+	margin: 15px auto 40px auto;
+}
+
+#signup2 {
+	font-size: 18px;
+	text-align: left;
+	font-family: 'Dosis', sans-serif;
+}
+
+footer {
+	width: 100%;
+	background-color: #B2B2CC;
+	font-size: 12px;
+	padding: 20px;
+}
+
+#website{
+	color: #000000;
+}

@@ -1,0 +1,22 @@
+.nav2 {
+	background-color: #000000;
+	text-align: center;
+	padding: 5pm;
+	width: 60px;
+	margin: 2px; 
+	float: right;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FFFFFF;
+}
+
+#nav a {
+	color: #FFFFFF;
+	font-family: 'Dosis', sans-serif;
+	text-decoration: none;
+	display: block;
+}
+
+a:hover {
+	background-color: #7EF2B8;
+}

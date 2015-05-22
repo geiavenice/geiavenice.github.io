@@ -13,6 +13,7 @@ body#userflow {
 	font-family: 'Dosis', sans-serif;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 20px;
 	text-align: center;
 }
 
@@ -63,6 +64,7 @@ img.entrancelogo {
 
 h1#homepage {
 	font-family: "Anders", sans-serif;
+	src: url(fonts/anders.ttf);
 	text-align: center;
 	color: #7EF2B8;
 	top: 15px;
@@ -89,9 +91,10 @@ h4#offers {
 
 h1#meettheteam {
 	font-family: "Anders", sans-serif;
+	src: url(fonts/anders.ttf);
 	text-align: center;
 	color: #7EF2B8;
-	top: 15px;
+	top: 50px;
 	padding-left: 350px;
 	margin-left: auto;
 	margin-right: auto;
@@ -100,11 +103,19 @@ h1#meettheteam {
 	position: absolute;
 }
 
+p.jobtitle {
+	text-align: center;
+	text-decoration: underline;
+	padding top: 0px;
+	margin-top: 0px;
+}
+
 h1#andersonprogram {
 	font-family: "Anders", sans-serif;
+	src: url(fonts/anders.ttf);
 	text-align: center;
 	color: #7EF2B8;
-	top: 15px;
+	top: 50px;
 	padding-left: 100px;
 	margin-left: auto;
 	margin-right: auto;
@@ -115,6 +126,7 @@ h1#andersonprogram {
 
 h1#howitworks {
 	font-family: "Anders", sans-serif;
+	src: url(fonts/anders.ttf);
 	text-align: center;
 	color: #7EF2B8;
 	top: 15px;
@@ -167,6 +179,7 @@ img#mathpic {
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 20px;
+	background-color: #FFFFFF;
 }
 
 .clearfix:after {
@@ -182,7 +195,8 @@ img#mathpic {
 div.teambio {
 	display: block;
 	text-align: left;
-	width: 230px;
+	width: 400px;
+	height: 850px;
 	float: left;
 	border: 1px solid #656464;
 	margin-right: 10px;
@@ -192,7 +206,7 @@ div.teambio {
 
 .team {
 	display: block;
-	width: 920px;
+	width: 1430px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	margin-right: auto;
@@ -212,21 +226,25 @@ div.programelements {
 	display: block;
 	text-align: left;
 	width: 360px;
+	height: 515px;
 	float: left;
 	border: 1px solid #656464;
 	margin-right: 25px;
 	margin-left: 25px;
 	padding: 10px;
+	background-color: #FFFFFF;
 }
 div.programelements1 {
 	display: block;
 	text-align: left;
 	width: 360px;
+	height: 515px;
 	float: left;
 	border: 1px solid #656464;
 	margin-right: 25px;
 	margin-left: 95px;
 	padding: 10px;
+	background-color: #FFFFFF;
 }
 
 .program {
@@ -262,6 +280,11 @@ h3 {
 
 #form {
 	margin: 20px;
+}
+
+img#userflow {
+	margin: 20px;
+	width: 85%;
 }
 
 footer {

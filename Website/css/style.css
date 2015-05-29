@@ -288,12 +288,11 @@ img#userflow {
 }
 
 footer {
-	width: 100%;
 	background-color: #ffffff;
-	font-size: 12px;
-	padding: 20px;
+	font-size: .8em;
+	padding: 2%;
 	border: 3px solid gray;
-	width: 855px;
+	width: 60%;
 	margin-right: auto;
 	margin-left: auto;
 }

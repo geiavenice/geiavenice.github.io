@@ -14,9 +14,9 @@
 
 body {
 	background-color: #E3E3ED;
-	color: #000000;
+	color: #595959;
 	font-family: 'Dosis', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -60,7 +60,7 @@ div#logobackground {
 
 img.logo {
 		display: block;
-		width: 7%;
+		width: 10%;
 		padding-left: 3%;
 		float: left;
 		background-color: #000000;
@@ -69,7 +69,7 @@ img.logo {
 header {
 	position: absolute;
 	width: 100%;
-	top: 25%;
+	top: 10%;
 }
 
 h1.header {
@@ -89,10 +89,10 @@ h2.slogan {
 	font-family: "Dosis", sans-serif;
 	text-align: center;
 	color: #ffffff;
-	/*top: 0%;*/
+	/*top: 10%;*/
 /*	margin-top: 20%;
 	width: 100%;
-*/	font-size: 1.7em;
+*/	font-size: 1.5em;
 	letter-spacing: .2em;
 	/*position: absolute;*/
 }
@@ -117,6 +117,10 @@ h4#offers {
 	color: #7EF2B8;
 }
 
+#guidededucation {
+	font-family: "Anders", sans-serif;
+	font-size: 1.2em;
+}
 
 p.jobtitle {
 	text-align: center;
@@ -130,11 +134,11 @@ div.math {
 
 img#mathpic {
 	width: 100%;
-	height: 78%;
+	height: 70%;
 }
 
 .summarywrapper{
-	width: 76%;
+	width: auto;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -142,43 +146,50 @@ img#mathpic {
  .summary {
 	display: block;
 	text-align: left;
-	background-color: #ffffff;
+/*	background-color: #ffffff;
 	color: #000000;
-	padding: 4%;
-	border: 3px solid gray;
-	width: 40%;
-	height: 83%;
+*/	padding: 2%;
+/*	border: 3px solid gray;
+*/	width: 43%;
 	float: left;
 	margin-top: 2%;
-	margin-right: auto;
-	margin-left: 1%;
-	margin-bottom: 4%;
+	margin-left: 2%;
+	margin-bottom: 7%;
+}
+
+#minutes {
+	float: right;
+	width: 60%;
 }
 
 .teamsummary {
 	display: block;
-	text-align: left;
-	color: #000000;
-	padding: 2.5% 5%;
-	border: 3px solid gray;
-	width: 80%;
+	text-align: center;
+	/*color: #000000;
+	*/padding: 2.5% 5%;
+	/*border: 3px solid gray;
+	*/width: 75%;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 2%;
-	background-color: #FFFFFF;
+	margin-bottom: 2%;
+	/*background-color: #FFFFFF;*/
 }
 
 p#talkaboutcollege {
 	text-decoration: bold;
-	font-size: 1.6em;
+	font-size: 1.8em;
+	padding-top: 2%;
+	text-align: center;
 }
 
-iframe#iframe {
-	width: 100%; 
-	height: 100%;
-	border-color: none;
-	margin-height: 0; 
-	margin-width: 0;
+img#applybutton {
+	display: none;
+}
+
+#wufoo-z1qoqpd6142v205 {
+	margin-top: 4%;
+	margin-left: 15%;
 }
 
 .clearfix:after {
@@ -193,7 +204,7 @@ iframe#iframe {
 
 div.team {
 	display: block;
-	width: 75%;
+	width: 80%;
 	margin-top: 1.5%;
 	margin-right: auto;
 	margin-left: auto;
@@ -207,12 +218,12 @@ div.teambio {
 	width: 40%;
 	height: 88%;
 	float: left;
-	border: 1px solid #656464;
-	margin-left: 3%;
-	margin-right: auto;
-	padding: 2.5%;
-	background-color: #ffffff;
-	overflow-y: auto; 
+	/*border: 1px solid #656464;
+*/	margin-left: 5%;
+	margin-right: 5%;
+	/*padding: 2.5%;
+	background-color: #ffffff;*/
+/*	overflow-y: auto; */
 }
 
 .team:after {
@@ -224,17 +235,29 @@ div.teambio {
   font-size: 0;
 }
 
+img.teampic {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	height: 45%;
+}
+
+img#teamlifechart {
+	margin-top: 6%;
+	margin-bottom: 3%;
+}
+
 div.programelements1 {
 	display: block;
 	text-align: left;
 	width: 25%;
 	height: 72%;
 	float: left;
-	border: 1px solid #656464;
-	margin-right: 2%;
+	/*border: 1px solid #656464;
+*/	margin-right: 2%;
 	margin-left: 6%;
 	padding: .7%;
-	background-color: #FFFFFF;
+	/*background-color: #FFFFFF;*/
 }
 
 div.programelements {
@@ -243,11 +266,12 @@ div.programelements {
 	width: 25%;
 	height: 72%;
 	float: left;
-	border: 1px solid #656464;
-	margin-right: 2%;
+	/*border: 1px solid #656464;
+*/	margin-right: 2%;
 	margin-left: 2%;
+	margin-bottom: 10%;
 	padding: .7%;
-	background-color: #FFFFFF;
+	/*background-color: #FFFFFF;*/
 }
 
 .program {
@@ -268,12 +292,6 @@ div.programelements {
   font-size: 0;
 }
 
-img.teampic {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	height: 45%;
-}
 h3 {
 	text-align: center;
 	font-weight: bold;
@@ -287,35 +305,51 @@ img#userflow {
 	width: 85%;
 }
 
+iframe#longform {
+	width: 50%; 
+	height: 100%; 
+}
+
 footer {
-	background-color: #ffffff;
+	background-color: #ADADAD;
+	color: #FFFFFF; 
 	font-size: .8em;
 	padding: 2%;
-	border: 3px solid gray;
-	width: 60%;
+/*	border: 3px solid gray;*/
+	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 }
 
-#website {
-	color: black;
+a.hyperlink {
+	color: #000000;
+	text-decoration: none;
+}
+
+.hyperlink a:hover {
+	color: #7EF2B8;
+}
+
+a.website {
+	color: #FFFFFF;
 	text-decoration: underline;
 	line-height: 70%;
+}
+
+.website a:hover {
+	color: #7EF2B8;
 }
 
 div.apply {
 	display: block;
 	text-align: center;
-	background-color: #ffffff;
 	padding: 2.5% 5%;
-	border: 3px solid gray;
-	width: 80%;
+	width: 70%;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 20px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
 	.nav2 {
 		float: none;
 		width: 80%;
@@ -343,6 +377,8 @@ h1.header {
 	/*width: 100%;*/
 	font-size: 200%;
 	/*position: absolute;*/
+	line-height: .5em;
+	font-size: 1.3em;
 }
 
 h2.slogan {
@@ -360,21 +396,21 @@ h4#offers {
 
 img#mathpic {
 	width: 100%;
-	height: 50%;
+	height: 25%;
 }
 
-iframe#iframe {
-	width: auto;
-	height: auto;
+img#applybutton {
+	display: inline;
+	margin-top: 3%;
 }
 
  .summary {
 	display: block;
 	text-align: left;
-	background-color: #E3E3ED;
+	background-color: #FFFFFF;
 	color: #000000;
-	border: none;
 	width: auto;
+	height: auto;
 	float: none;
 	overflow-y: auto; 
 }
@@ -383,17 +419,57 @@ iframe#iframe {
 	display: none;
 }
 
+div.team {
+	float: none;
+	width: auto;
+}
+
+div.teambio {
+	float: none;
+	width: auto;
+	height: auto;
+	margin-top: 3%;
+}
+
+img.teampic {
+	width: 60%;
+	height: auto;
+}
+
+img#teamlifechart {
+	width: 100%;
+}
+
+div.programelements1 {
+	float: none;
+	width: auto;
+	margin-top: 3%;
+	margin-left: 2%;
+}
+
+div.programelements {
+	float: none;
+	width: auto;
+	margin-top: 3%;
+}
+
 footer {
 	display: none
 }
+
+iframe#longform {
+	width: auto; 
+	height: 100%; 
 }
 
-@media only screen and (max-width: 1184px) and (min-width: 768px){
+}
+
+@media only screen and (max-width: 1333px) and (min-width: 768px){
 
 	body {
 		font-size: 14px;
 	}
-	
+
 	.summary {
 	display: block;
 	text-align: left;
@@ -422,10 +498,16 @@ h4#offers {
 	font-family: "Dosis", sans-serif;
 	text-align: center;
 	color: #ffffff;
-	top: 79%;
+	top: 90%;
 	width: 100%;
 	font-size: 1.08em;
 	position: absolute;
+	margin-top: 15%;
+}
+
+#minutes {
+	float: right;
+	width: 30%;
 }
 
 
@@ -433,26 +515,23 @@ h4#offers {
 	overflow-y: auto;
 }
 
-footer {
-	display: none
-}
-}
-
-
-@media only screen and (max-width: 767px) and (min-width: 480px){
-
-	#summary2 {
-		display: none;
-	}
-
-	.summary {
-	display: block;
-	text-align: left;
-	background-color: #FFFFFF;
-	color: #000000;
+div.teambio {
+	float: none;
 	width: auto;
 	height: auto;
-	float: none;
-	overflow-y: auto; 
+	margin-top: 3%;
+}
+
+img.teampic {
+	width: 60%;
+	height: auto;
+}
+
+img#teamlifechart {
+	width: 100%;
+}
+
+footer {
+	display: none
 }
 }

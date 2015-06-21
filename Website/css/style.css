@@ -13,10 +13,12 @@
 }
 
 body {
-	background-color: #E3E3ED;
-	color: #595959;
+
+	background-color: #3B3636;
+	color: #FFFFFF;
 	font-family: 'Dosis', sans-serif;
 	font-size: 18px;
+	margin: 0;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -33,13 +35,16 @@ body#userflow {
 }
 
 .nav2 {
-	background-color: #000000;
 	text-align: center;
 	padding: .5%;
 	float: right;
-	margin-top: 3.5%;
+	margin-top: 1%;
 	margin-right: 2%;
+}
 
+div #nav {
+	position: relative;
+	z-index: 1;
 }
 
 #nav a {
@@ -50,26 +55,30 @@ body#userflow {
 }
 
 #nav a:hover {
-	color: #7EF2B8;
+	color: #CF3A8A;
 }
 
 div#logobackground {
 	width: 100%;
 	background-color: #000000;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 
 img.logo {
 		display: block;
-		width: 10%;
-		padding-left: 3%;
-		float: left;
-		background-color: #000000;
+		width: 7.5%;
+		position: fixed;
+		z-index: 1;
+		top: 1%;
+		left: 3%;
 	}
 
 header {
 	position: absolute;
 	width: 100%;
-	top: 10%;
+	top: 0;
+	margin-top: 10%;
 }
 
 h1.header {
@@ -77,12 +86,22 @@ h1.header {
 	src: url(fonts/anders.ttf);
 	text-align: center;
 	color: #7EF2B8;
-	/*top: 0%;*/
-/*	margin-top: 10%;*/
+	/*top: 10%;*/
+	margin-top: 10%;
 	/*width: 100%;*/
 	font-size: 5em;
 	letter-spacing: .05em;
-	/*position: absolute;*/
+	/*position: absolute;
+*/}
+
+h1.andersonheader {
+	font-family: "Anders", sans-serif;
+	src: url(fonts/anders.ttf);
+	text-align: center;
+	color: #7EF2B8;
+	margin-top: 5%;
+	font-size: 5em;
+	letter-spacing: .05em;
 }
 
 h2.slogan {
@@ -114,12 +133,17 @@ h4#offers {
 }
 
 #offers a:hover {
-	color: #7EF2B8;
+	color: #CF3A8A;
 }
 
-#guidededucation {
+p.guidededucation {
+	font-family: "Dosis", sans-serif;
+	font-size: 1.4em;
+	margin-bottom: -.5em;
+}
+
+span#ge {
 	font-family: "Anders", sans-serif;
-	font-size: 1.2em;
 }
 
 p.jobtitle {
@@ -129,12 +153,13 @@ p.jobtitle {
 
 div.math {
 	width: 100%;
-	position: relative;
 }
 
 img#mathpic {
+/*	margin-top: 10%;*/
 	width: 100%;
-	height: 70%;
+	height: 85%;
+
 }
 
 .summarywrapper{
@@ -146,20 +171,27 @@ img#mathpic {
  .summary {
 	display: block;
 	text-align: left;
-/*	background-color: #ffffff;
-	color: #000000;
-*/	padding: 2%;
-/*	border: 3px solid gray;
-*/	width: 43%;
+	width: 40%;
 	float: left;
 	margin-top: 2%;
-	margin-left: 2%;
 	margin-bottom: 7%;
 }
 
+#summary1 {
+	margin-left: 15%;
+}
+#summary2 {
+	margin-left: 5%;
+}
+
+p.headings {
+	font-size: 1.7em;
+}
+
 #minutes {
-	float: right;
+	float: left;
 	width: 60%;
+	padding-right: 2%;
 }
 
 .teamsummary {
@@ -178,18 +210,23 @@ img#mathpic {
 
 p#talkaboutcollege {
 	text-decoration: bold;
-	font-size: 1.8em;
-	padding-top: 2%;
-	text-align: center;
+	font-size: 1.5em;
+	margin-top: 1em;
+	text-align: left;
 }
 
 img#applybutton {
 	display: none;
 }
 
-#wufoo-z1qoqpd6142v205 {
+#wufoo-q1c8pg7g0kqemxf {
+	display: none;
+	/*background-color: red;*/
+	/*margin-left: 15%;*/
+}
+
+div#wufoo-s1e8r94w14qv81v {
 	margin-top: 4%;
-	margin-left: 15%;
 }
 
 .clearfix:after {
@@ -202,6 +239,99 @@ img#applybutton {
   background-color: gray
 }
 
+a.indexoffers { 
+    position: relative; 
+    z-index:24; background-color:#3B3636;
+    color: #FFFFFF;
+    margin-left: 15%;
+    margin-top: 0%;
+    width: 40%; 
+}
+
+a.indexoffers:hover {z-index:2; background-color:#CF3A8A;} 
+
+a.indexoffers span{display: none} 
+
+a.indexoffers:hover span 
+{ 
+    display: block; 
+    position: absolute; 
+    top: -9.8em; 
+    left: -18.5em; 
+    width: 18em;
+    border: 2px outset #CF3A8A; 
+    background-color:#3B3636; color:#fff; 
+    font-size: .8em;
+} 
+
+a#programbenefits:hover span 
+{ 
+    display: block; 
+    position: absolute; 
+    top: -12em; 
+    left: -18.5em; 
+    width: 18em;
+    border: 2px outset #CF3A8A; 
+    background-color:#3B3636; color:#fff; 
+    font-size: .8em;
+} 
+
+a#programfeatures:hover span 
+{ 
+    display: block; 
+    position: absolute; 
+    top: -12em; 
+    left: -18.5em; 
+    width: 18em;
+    border: 2px outset #CF3A8A; 
+    background-color:#3B3636; color:#fff; 
+    font-size: .8em;
+} 
+
+a.signupoffer { 
+    position: relative; 
+    z-index:24; background-color:#3B3636;
+    color: #FFFFFF;
+    margin-left: 15%;
+    margin-top: 0%;
+    width: 40%; 
+}
+
+a.signupoffer:hover {z-index:2; background-color:#CF3A8A;} 
+
+a.signupoffer span{display: none} 
+
+a#signup:hover span {
+	/*text-align: center;
+	display: block; 
+    position: absolute; 
+    top: -6em; 
+    left: -9.5em; 
+    width: 9em;
+    border: 2px outset #CF3A8A; 
+    background-color:#3B3636; color:#fff; 
+    font-size: .8em;*/
+}
+
+li {
+	text-align: left;
+}
+
+div#signupwrapper {
+	margin-top: 15%;
+	margin-left: 25%;
+}
+
+div#programfeatureswrapper {
+	margin-top: 15%;
+	margin-left: 25%;
+}
+
+div#programbenefitswrapper {
+	margin-top: 15%;
+	margin-left: 25%;
+}
+
 div.team {
 	display: block;
 	width: 80%;
@@ -209,7 +339,7 @@ div.team {
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 2.5%;
-	background-color: #E3E3ED;
+	background-color: #3B3636;
 }
 
 div.teambio {
@@ -243,45 +373,60 @@ img.teampic {
 }
 
 img#teamlifechart {
-	margin-top: 6%;
+	margin-top: 3%;
 	margin-bottom: 3%;
+	margin-left: -1%;
 }
 
-div.programelements1 {
-	display: block;
+#andersonsummary {
+	width: 70%;
 	text-align: left;
-	width: 25%;
-	height: 72%;
-	float: left;
-	/*border: 1px solid #656464;
-*/	margin-right: 2%;
-	margin-left: 6%;
-	padding: .7%;
-	/*background-color: #FFFFFF;*/
+}
+
+div.program {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 div.programelements {
 	display: block;
 	text-align: left;
-	width: 25%;
-	height: 72%;
+	width: 27.5%;
 	float: left;
 	/*border: 1px solid #656464;
 */	margin-right: 2%;
 	margin-left: 2%;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 	padding: .7%;
-	/*background-color: #FFFFFF;*/
+/*	background-color: #FFFFFF;*/
 }
 
-.program {
+h3:hover {
+	background-color: #CF3A8A;
+}
+
+img#graphic1 {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: auto;
+	padding-right: auto;
+	opacity: .7;
+}
+
+#graphic img:hover {
+	background-color: #7EF2B8;
+}
+
+/*.program {
 	display: block;
 	width: 100%;
 	margin-top: 1.5%;
 	margin-bottom: 2%;
 	margin-right: auto;
 	margin-left: auto;
-}
+}*/
 
 .program:after {
   visibility: hidden;
@@ -292,17 +437,28 @@ div.programelements {
   font-size: 0;
 }
 
+img#caseload {
+	margin-top: 0%;
+	margin-bottom: 4%;
+	width: 40%;
+}
+
 h3 {
 	text-align: center;
 	font-weight: bold;
-	background-color: #7EF2B8;
+	background-color: #7EF2b8;
 	color: #000000;
 }
 
 
 img#userflow {
-	margin: 20px;
+	margin-left: 10%;
+	margin-bottom: 5%;
 	width: 85%;
+}
+
+img#mobilecaseload {
+	display: none;
 }
 
 iframe#longform {
@@ -310,34 +466,101 @@ iframe#longform {
 	height: 100%; 
 }
 
-footer {
-	background-color: #ADADAD;
-	color: #FFFFFF; 
-	font-size: .8em;
-	padding: 2%;
-/*	border: 3px solid gray;*/
-	width: 100%;
+div.wufoo {
 	margin-right: auto;
 	margin-left: auto;
+	margin-bottom: 20%;
+
+}
+
+footer#homefooter {
+  background-image: url("http://guided.education/images/footer1.png");
+  background-size: cover;
+  text-align: center;
+  position: absolute;
+  bottom: -1000;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+  padding: 2%;
+}
+
+footer a {
+  padding: 1%;
+  color: #3B3636;
+  font-size: .8em;
+  text-decoration: none;
+}
+
+footer a:hover {
+	color: #CF3A8A;
+}
+
+footer#applyfooter {
+  background-image: url("http://guided.education/images/footer1.png");
+  background-size: cover;
+  text-align: center;
+  position: absolute;
+  bottom: -1900;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+  padding: 2%;
+}
+
+footer#programfooter {
+  background-image: url("http://guided.education/images/footer1.png");
+  background-size: cover;
+  text-align: center;
+  position: absolute;
+  bottom: -2800;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+  padding: 2%;
+}
+
+footer#infofooter {
+  background-image: url("http://guided.education/images/footer1.png");
+  background-size: cover;
+  text-align: center;
+  position: absolute;
+  bottom: -600;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+  padding: 2%;
+}
+
+footer#teamfooter {
+  background-image: url("http://guided.education/images/footer1.png");
+  background-size: cover;
+  text-align: center;
+  position: absolute;
+  bottom: -2600;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+  padding: 2%;
 }
 
 a.hyperlink {
-	color: #000000;
-	text-decoration: none;
-}
-
-.hyperlink a:hover {
 	color: #7EF2B8;
+	text-decoration: none;
+	margin-top: .5em;
 }
 
 a.website {
-	color: #FFFFFF;
+	color: #3B3636;
 	text-decoration: underline;
 	line-height: 70%;
 }
 
-.website a:hover {
-	color: #7EF2B8;
+div#wufoo-m63lkk811z9zra {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
 }
 
 div.apply {
@@ -349,25 +572,79 @@ div.apply {
 	margin-left: auto;
 }
 
+a.requestinformation { 
+    position: relative; 
+    z-index:24; background-color:#3B3636;
+    color: #FFFFFF;  
+}
+
+a.requestinformation:hover {z-index:25; background-color:#7EF2B8;} 
+
+a.requestinformation span{display: none} 
+
+a.requestinformation:hover span 
+{ 
+    /*display: block; 
+    position: absolute; 
+    top: -4.5em; 
+    left: 33em; 
+    width: 12em;
+    border: 2px solid #7EF2b8; 
+    font-size: .8em;
+    background-color:#3B3636; color:#fff; */
+} 
+
+div#requestbutton {
+	margin-bottom: 2%;
+}
+
+div#smallrequestbutton {
+	display: none;
+}
+
+div.information {
+	display: block;
+	width: 40%;
+	padding-left: 8%;
+	margin-top: 2%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2%;
+	border: 4px double white;
+}
+
+
+
 @media only screen and (max-width: 767px) {
+body {
+	font-size: 16px;
+}
+
 	.nav2 {
 		float: none;
 		width: 80%;
 		padding: 1% 0;
 		margin-right: auto;
 		margin-left: auto;
-		background: #000000;
-		text-align: right;		
+		text-align: right;	
 		}
 
 img.logo {
 		display: block;
-		width: 27%;
-		margin-top: 5%;
+		width: 20%;
+		margin-top: 0.5%;
+		padding-top: 1%;
 		padding-left: 5%;
 		float: left;
-		background-color: #000000;
+		top: 0%;
+		left: 0%;
+		padding-bottom: 1%;
+		position: absolute;
 	}
+
+header {
+	margin-top: 40%;
+}
 
 h1.header {
 	font-family: "Anders", sans-serif;
@@ -377,9 +654,20 @@ h1.header {
 	/*width: 100%;*/
 	font-size: 200%;
 	/*position: absolute;*/
-	line-height: .5em;
 	font-size: 1.3em;
 }
+
+h1.andersonheader {
+	font-family: "Anders", sans-serif;
+	src: url(fonts/anders.ttf);
+	text-align: center;
+	color: #7EF2B8;
+	/*width: 100%;*/
+	font-size: 200%;
+	/*position: absolute;*/
+	font-size: 1.6em;
+}
+
 
 h2.slogan {
 	font-family: "Dosis", sans-serif;
@@ -399,23 +687,39 @@ img#mathpic {
 	height: 25%;
 }
 
-img#applybutton {
+/*img#applybutton {
 	display: inline;
 	margin-top: 3%;
-}
+}*/
 
- .summary {
+.summary {
 	display: block;
 	text-align: left;
-	background-color: #FFFFFF;
-	color: #000000;
+	margin-left: 0%;
 	width: auto;
 	height: auto;
 	float: none;
 	overflow-y: auto; 
 }
 
-#summary2 {
+#summary1 {
+	margin: 2%;
+}
+
+img#minutes {
+	display: block;
+	width: 100%;
+}
+
+div#programbenefitswrapper {
+	display: none;
+}
+
+div#programfeatureswrapper {
+	display: none;
+}
+
+div#signupwrapper {
 	display: none;
 }
 
@@ -440,16 +744,10 @@ img#teamlifechart {
 	width: 100%;
 }
 
-div.programelements1 {
-	float: none;
-	width: auto;
-	margin-top: 3%;
-	margin-left: 2%;
-}
-
 div.programelements {
 	float: none;
 	width: auto;
+	height: auto;
 	margin-top: 3%;
 }
 
@@ -462,24 +760,79 @@ iframe#longform {
 	height: 100%; 
 }
 
+div#wufoo-q1c8pg7g0kqemxf {
+	display: inline;
+	width: 100%;
+	height: 45%;
+	margin: 0%;
+	margin-top: 8%;
+	margin-bottom: -4%;
+	padding-bottom: 0%;
+}
+
+div#wufoo-m63lkk811z9zra {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.information {
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img#userflow {
+	display: none;
+}
+
+img#mobilecaseload {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+}
+
+
+img#caseload {
+	display: none;
+}
+
+div#requestbutton {
+	display: none;
+}
+
+div#smallrequestbutton {
+	display: inline;
+}
+
+footer {
+	display: none
+}
+
 }
 
 @media only screen and (max-width: 1333px) and (min-width: 768px){
 
 	body {
-		font-size: 14px;
+		font-size: 16px;
 	}
-
+/*
 	.summary {
 	display: block;
 	text-align: left;
-	background-color: #FFFFFF;
-	color: #000000;
+	background-color: #3B3636;
+	color: #FFFFFF;
 	width: auto;
 	height: auto;
 	float: none;
 	overflow-y: auto; 
 }
+
+#summary2 {
+	margin-left: 11%;
+	width: 50%;
+}*/
 
 
 h2.slogan {
@@ -506,7 +859,7 @@ h4#offers {
 }
 
 #minutes {
-	float: right;
+	float: left;
 	width: 30%;
 }
 
@@ -531,7 +884,13 @@ img#teamlifechart {
 	width: 100%;
 }
 
+div.programelements {
+	float: none;
+	height: auto;
+	width: auto;
+	margin-top: 3%;
+}
+
 footer {
 	display: none
-}
 }
